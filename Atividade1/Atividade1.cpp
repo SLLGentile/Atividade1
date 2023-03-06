@@ -24,7 +24,15 @@ int  main()
 	media = (p1 + p2) / 2;
 	cout << media;
 
-	if (media >= 6);
-	cout << " Aprovado ";
+	if (media >= 6)
+
+	{
+		cout << " Aprovado ";
+	}
+
+	else
+	{
+		cout << "Reprovado ";
+	}
 
 }
